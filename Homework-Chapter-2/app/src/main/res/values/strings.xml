@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ByteDance-HW2</string>
+    <string name="PracticeActivity">PracticeActivity</string>
+    <string name="baidu">百度</string>
+    <string name="phone">phone</string>
+    <string name="congratualtion">恭喜你成为大力自习室中最优秀的坐姿模范生！</string>
+    <string name="owner">坐姿模范生</string>
+    <string name="obtain_date">2020-02-16 获得</string>
+    <string name="con_num">表扬次数 50/50 次</string>
+    <string name="gotostudy">去自习</string>
+    <string name="to_simplepage">去简单页面</string>
+    <string name="recycle_view_text">滚动列表</string>
+    <string name="update_time_text">更新于yyyy-mm-dd hh:mm:ss</string>
+
+</resources>
