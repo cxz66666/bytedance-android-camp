@@ -107,13 +107,13 @@ public class MainActivity extends AppCompatActivity {
             conn.setRequestMethod("GET");
             conn.setRequestProperty("token",Constants.token);  //设置header中的token
 
-            if (conn.getResponseCode() == 200){
-                InputStream in = conn.getInputStream();
-                BufferedReader reader = new BufferedReader(new InputStreamReader(in, StandardCharsets.UTF_8));
-                result = new Gson().fromJson(reader, new TypeToken<MessageListResponse>() {
-                }.getType());
-                reader.close();
-                in.close();
+                if (conn.getResponseCode() == 200){
+                    InputStream in = conn.getInputStream();
+                    BufferedReader reader = new BufferedReader(new InputStreamReader(in, StandardCharsets.UTF_8));
+                    result = new Gson().fromJson(reader, new TypeToken<MessageListResponse>() {
+                    }.getType());
+                    reader.close();
+                    in.close();
 
             } else{
                 throw new  IOException("没找到欸QAQ");
